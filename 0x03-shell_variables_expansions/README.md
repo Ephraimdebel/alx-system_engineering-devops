@@ -98,3 +98,15 @@ $ . ./6-create_local_variable
 $ echo $BEST
 School
 ```
+
+## 8-true_knowledge
+
+This script prints the result of adding 128 to the value stored in the environment variable TRUEKNOWLEDGE.
+
+Example:
+
+```bash
+$ export TRUEKNOWLEDGE=1209
+$ ./8-true_knowledge
+1337
+```
