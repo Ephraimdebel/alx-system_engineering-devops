@@ -110,3 +110,17 @@ $ export TRUEKNOWLEDGE=1209
 $ ./8-true_knowledge
 1337
 ```
+
+## 9-divide_and_rule
+
+This script prints the result of dividing the environment variable POWER by DIVIDE.
+
+Example:
+
+```bash
+$ export POWER=42784
+$ export DIVIDE=32
+$ ./9-divide_and_rule
+1337
+```
+
