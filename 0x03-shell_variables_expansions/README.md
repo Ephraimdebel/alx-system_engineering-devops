@@ -75,4 +75,14 @@ $ . ./5-local_variables
 BASH=/bin/bash
 BASH_VERSION='4.3.46(1)-release'
 ...
+## 6-create_local_variable
+
+This script creates a **local variable** called BEST with value "School".
+
+Example:
+
+```bash
+$ . ./6-create_local_variable
+$ echo $BEST
+School
 
