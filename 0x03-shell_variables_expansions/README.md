@@ -1,4 +1,6 @@
 
+
+
 # 0x03-shell_variables_expansions
 
 ## 0-alias
@@ -38,3 +40,14 @@ $ source ./2-path
 $ echo $PATH
 /home/julien/bin:/usr/bin:/action
 
+
+## 3-paths
+
+This script counts the number of directories in the PATH environment variable.
+
+Example:
+
+```bash
+$ echo $PATH
+/home/julien/bin:/usr/bin:/bin
+$ . ./3-paths
