@@ -1,6 +1,5 @@
 
 
-
 # 0x03-shell_variables_expansions
 
 ## 0-alias
@@ -51,3 +50,17 @@ Example:
 $ echo $PATH
 /home/julien/bin:/usr/bin:/bin
 $ . ./3-paths
+
+## 4-global_variables
+
+This script lists all environment variables in the current shell.
+
+Example:
+
+```bash
+$ source ./4-global_variables
+HOME=/home/julien
+USER=julien
+PATH=/home/julien/bin:/usr/bin:/bin
+...
+
