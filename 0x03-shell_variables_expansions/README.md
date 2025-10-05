@@ -64,3 +64,15 @@ USER=julien
 PATH=/home/julien/bin:/usr/bin:/bin
 ...
 
+## 5-local_variables
+
+This script lists all local variables, global environment variables, and functions in the current shell.
+
+Example:
+
+```bash
+$ . ./5-local_variables
+BASH=/bin/bash
+BASH_VERSION='4.3.46(1)-release'
+...
+
