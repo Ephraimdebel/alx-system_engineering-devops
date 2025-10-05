@@ -123,4 +123,15 @@ $ export DIVIDE=32
 $ ./9-divide_and_rule
 1337
 ```
+## 10-love_exponent_breath
 
+This script prints the result of raising the environment variable BREATH to the power of LOVE.
+
+Example:
+
+```bash
+$ export BREATH=4
+$ export LOVE=3
+$ ./10-love_exponent_breath
+64
+```
