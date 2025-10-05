@@ -146,3 +146,19 @@ $ export BINARY=10100111001
 $ ./11-binary_to_decimal
 1337
 ```
+
+## 12-combinations
+
+This script prints all 2-letter combinations from a–z, except "oo", one per line in alphabetical order.
+
+Example:
+
+```bash
+$ ./12-combinations | wc -l
+675
+$ ./12-combinations | tail -303 | head -10
+oi
+oj
+ok
+...
+```
