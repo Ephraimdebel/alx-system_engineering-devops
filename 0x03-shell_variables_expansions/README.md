@@ -1,3 +1,4 @@
+
 # 0x03-shell_variables_expansions
 
 ## 0-alias
@@ -22,5 +23,18 @@ Example:
 
 ```bash
 $ ./1-hello_you
-hello julien
+hello Ephraim
+
+## 2-path
+
+This script appends "/action" to the end of the PATH environment variable.
+
+Example:
+
+```bash
+$ echo $PATH
+/home/julien/bin:/usr/bin
+$ source ./2-path
+$ echo $PATH
+/home/julien/bin:/usr/bin:/action
 
