@@ -14,3 +14,13 @@ After sourcing this script with:
 ```bash
 source ./0-alias
 
+## 1-hello_you
+
+This script prints "hello <current_user>", where <current_user> is the Linux user running the script.
+
+Example:
+
+```bash
+$ ./1-hello_you
+hello julien
+
