@@ -135,3 +135,14 @@ $ export LOVE=3
 $ ./10-love_exponent_breath
 64
 ```
+## 11-binary_to_decimal
+
+This script converts the number stored in the environment variable BINARY from base 2 to base 10.
+
+Example:
+
+```bash
+$ export BINARY=10100111001
+$ ./11-binary_to_decimal
+1337
+```
